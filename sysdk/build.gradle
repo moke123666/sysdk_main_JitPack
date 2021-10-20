@@ -1,16 +1,17 @@
-plugins {
-    id 'com.android.library'
-    id 'maven-publish'
-}
-//apply plugin: 'com.github.dcendents.android-maven'
+//plugins {
+//    id 'com.android.library'
+////    id 'maven-publish'
+//}
+apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
 group='com.github.moke123666'
 
 android {
-    compileSdk 31
+    compileSdkVersion 29
 
     defaultConfig {
-        minSdk 22
-        targetSdk 31
+        minSdkVersion 16
+        targetSdkVersion 29
         versionCode 1
         versionName "1.0"
 
