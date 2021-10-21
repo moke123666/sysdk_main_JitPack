@@ -96,7 +96,7 @@ dependencies {
 
 
     //top on 广告集成
-    compileOnly files('libs/anythink_china_core.aar')
+    embed files('libs/anythink_china_core.aar')
     compileOnly files('libs/anythink_core.aar')
     compileOnly files('libs/anythink_native.aar')
     compileOnly files('libs/anythink_rewardvideo.aar')
@@ -135,7 +135,7 @@ dependencies {
 
     compileOnly files('libs/netmobsecLib-4.4.5.6.aar')
 
-    embed(name: 'appsSySDK', ext: 'aar')
+//    embed(name: 'appsSySDK', ext: 'aar')
 }
 
 fataar {
