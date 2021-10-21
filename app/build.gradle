@@ -9,7 +9,7 @@ android {
     compileSdkVersion 29
 
     defaultConfig {
-        applicationId "com.example.sysdk_main_jitpack"
+        applicationId "com.example.sysdkmainjitpack"
         minSdkVersion 16
         targetSdkVersion 29
         versionCode 1
