@@ -4,7 +4,7 @@ plugins {
 }
 //apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
-group='com.github.moke123666'
+group='com.github.mokercode'
 apply plugin: 'com.kezong.fat-aar'
 
 android {
@@ -38,7 +38,7 @@ android {
 }
 
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    //implementation fileTree(dir: 'libs', include: ['*.jar'])
 //    implementation(name: 'appsSySDK-release', ext: 'aar')
 //    api project(path: ':aar')
     implementation 'androidx.appcompat:appcompat:1.2.0'
