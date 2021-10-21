@@ -9,3 +9,4 @@
 rootProject.name = "sysdk_main_JitPack"
 include ':app'
 include ':sysdk'
+include ':aar'
